@@ -5,6 +5,7 @@ Lukas Kouba <lukas.kouba.de@gmail.com>
 :toc-title: Inhaltsverzeichnis
 // Platzhalter für weitere Dokumenten-Attribute 
 
+
 == Einführung
 Dieses Dokument dient im Praktikum als Spielwiese für das Kennenlernen und praktische Üben der Syntax von AsciiDoc.
 //unsortierte Liste
@@ -27,3 +28,18 @@ Dieses Dokument dient im Praktikum als Spielwiese für das Kennenlernen und prak
 |===
 * Test:
 **E**ngin__ee__``ring``
+
+=== Quellcode
+:source-highlighter: rouge
+[source, c, linenums]
+
+#include <stdio.h>
+int main(int argc, char* argv[])
+{
+    printf("Hello, World!\n");
+    return 0;
+}
+
+=== Bilder
+:imagesdir: images
+image::Pic1.png[]
