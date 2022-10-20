@@ -15,3 +15,15 @@ Dieses Dokument dient im Praktikum als Spielwiese für das Kennenlernen und prak
 .Eins
 .Zwei
 .Drei
+=== Tabellen und Textformatierung
+[cols="1>m,2^e,7<",width="70%",align="center",frame="topbot",options="header"]
+|===
+| Formatierung| Syntax      | Beschreibung
+| bold    | \*bold*     | fetter Text
+| italic    | \_italic_       | kursiver Text
+| monospace| \`monospace`      | Text mit fester Laufweite
+| bolditalic    | \*\_bolditalic_*     | Text mit kombinierter Formatierung
+| bolditalic    | \**bold**\__italic__       | Text mit Formatierung innerhalb eines Wortes
+|===
+* Test:
+**E**ngin__ee__``ring``
